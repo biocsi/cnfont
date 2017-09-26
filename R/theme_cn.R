@@ -19,7 +19,3 @@ font_cn <- function(font="STKaiti")
   )
 }
 
-#' cn for plot
-#' @examples
-#' plot(1:10, xlab="X轴", ylab="Y轴", main="标题")
-NULL
