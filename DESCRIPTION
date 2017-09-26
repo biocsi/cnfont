@@ -1,0 +1,12 @@
+Package: cnfont
+Type: Package
+Title: patch for cn plot
+Version: 0.1.0
+Author: bobo
+Description: patch for cn plot(base plot and ggplot2)
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:
+  ggplot2
+RoxygenNote: 6.0.1
