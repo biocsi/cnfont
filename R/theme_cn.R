@@ -5,9 +5,9 @@
 #' library(ggformula)
 #' gf_point(mpg ~ hp, color = ~ cyl, size = ~wt, data = mtcars) -> p
 #' p
-#' p + xlab("X轴") + ylab("Y轴") + ggtitle("标题") # + font_cn()
-#' p + xlab("X轴") + ylab("Y轴") + ggtitle("标题") + font_cn()
-font_cn <- function(font="STKaiti")
+#' p + xlab("X轴") + ylab("Y轴") + ggtitle("标题") # + theme_cn()
+#' p + xlab("X轴") + ylab("Y轴") + ggtitle("标题") + theme_cn()
+theme_cn <- function(font="STKaiti")
 {
   # 1. 识别mac, linux, win.
   # 2. 查找三个系统上的中文字体.
