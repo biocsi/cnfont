@@ -1,0 +1,22 @@
+# cnfont
+set chinese font right for ggplot2
+
+# install
+```{r}
+devtools::install("zengfengbo/cnfont")
+```
+
+# usage
+
+```{r}
+library(cnfont)
+# for base plot
+plot(1:10, xlab = "1到10", ylab = "1到10")
+
+# for ggplot2
+library(ggplot2)
+ggplot(data.frame(x=1:10, y=1:10*2)) +
+  geom_point(aes(x, y)) +
+  xlab("X轴") + ylab("Y轴")
+```
+
